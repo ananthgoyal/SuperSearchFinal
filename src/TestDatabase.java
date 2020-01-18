@@ -9,8 +9,9 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import net.sourceforge.htmlunit.corejs.javascript.JavaScriptException;
 import org.jsoup.Jsoup;
-
-
+//Links:
+//https://jar-download.com/artifacts/org.seleniumhq.selenium/htmlunit-driver/2.32.1/source-code
+//https://jsoup.org/download
 public class TestDatabase {
 
     private String link;
