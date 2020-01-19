@@ -25,6 +25,7 @@
     <a href="http://localhost:8080/SuperSearchFinal_war_exploded/YaleOut.jsp" target="_blank">Yale Database</a>
     <br>
     <br>
+    <a href="http://localhost:8080/SuperSearchFinal_war_exploded/LunaImageOut.jsp" target="_blank">Image Database</a>
 </center>
 </body>
 </html>

@@ -41,8 +41,8 @@
             if(myParam=='history') {
                 window.open('historicalResults.jsp')
             }
-            else if(myParam=='science'){
-                window.open('scienceResults.jsp')
+            else if(myParam=='caseLaw'){
+                window.open('CaseLawOut.jsp')
             }
             else if(myParam=='medicine'){
                 window.open('medicineResults.jsp')

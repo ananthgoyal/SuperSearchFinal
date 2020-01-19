@@ -17,9 +17,6 @@
     <a href="http://localhost:8080/SuperSearchFinal_war_exploded/MedlineOut.jsp" target="_blank">Medline Database</a>
     <br>
     <br>
-    <a href="http://localhost:8080/SuperSearchFinal_war_exploded/Medscape.jsp" target="_blank">Medscape Database</a>
-    <br>
-    <br>
     <a href="http://localhost:8080/SuperSearchFinal_war_exploded/PubMed.jsp" target="_blank">PubMed Database</a>
     <br>
     <br>
