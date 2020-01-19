@@ -1,24 +1,25 @@
-import java.io.IOException;
-import java.net.MalformedURLException;
+package Database;
+
+import net.sourceforge.htmlunit.corejs.javascript.JavaScriptException;
+import org.jsoup.Jsoup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import com.gargoylesoftware.htmlunit.*;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import java.io.IOException;
 import java.net.MalformedURLException;
-import net.sourceforge.htmlunit.corejs.javascript.JavaScriptException;
-import org.jsoup.Jsoup;
-//Links:
-//https://jar-download.com/artifacts/org.seleniumhq.selenium/htmlunit-driver/2.32.1/source-code
-//https://jsoup.org/download
-public class TestDatabase {
+
+
+
+public class Yale {
 
     private String link;
     private String body;
     private String[] resources;
 
-    public TestDatabase(String link){
+    public Yale(String link){
         this.link = link;
         resources = new String[10];
     }
@@ -42,7 +43,7 @@ public class TestDatabase {
 
 
     public static void main(String[] args)  throws FailingHttpStatusCodeException, MalformedURLException, IOException, JavaScriptException {
-        TestDatabase yale = new TestDatabase("https://www.google.com/search?domains=yale.edu&sitesearch=avalon.law.yale.edu%2F&q=slave+trade&x=0&y=0");
+        Yale yale = new Yale("https://www.google.com/search?domains=yale.edu&sitesearch=avalon.law.yale.edu%2F&q=christopher+columbus&x=0&y=0");
         System.out.println(yale.intialRun());
 
     }
@@ -105,5 +106,4 @@ public class TestDatabase {
             pos = str.indexOf(substr, pos + 1);
         return pos;
     }
-
 }
