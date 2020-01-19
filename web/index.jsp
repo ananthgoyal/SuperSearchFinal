@@ -19,7 +19,7 @@
 
 <body style="background-color:lightyellow;">
 <h1><center>Super Search Algorithm</center></h1>
-<center><p>By Ananth  Goyal and Dev Gupta</p></center>
+<center><p>By Ananth Goyal and Dev Gupta</p></center>
 
 
 <form action="Notice.jsp" method="GET">
@@ -28,8 +28,6 @@
     <center>
       Research Subjects: <select name = "topic">
       <option value="history">History</option>
-      <option value="literature">Literature</option>
-      <option value="science">Science</option>
       <option value="medicine">Medicine</option>
 
     </select>
