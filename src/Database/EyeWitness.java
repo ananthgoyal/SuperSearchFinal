@@ -66,8 +66,6 @@ public class EyeWitness {
             resources[i] = resources[i].replaceFirst("eyewitnesstohistory.com › ", "");
             resources[i] = resources[i].replaceFirst("\n", "");
             resources[i] = resources[i].substring(0, firstIndexOfUCL(resources[i]));
-            //resources[i] = resources[i] + ".htm";
-            //System.out.println(this.body);
             System.out.println("Source " + resources[i]);
 
         }

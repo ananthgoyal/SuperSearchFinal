@@ -29,7 +29,7 @@
 
 <body style="background-color:lightyellow;">
 <h1 style="font-family:verdana;" ><center>Super Search Algorithm</center></h1>
-<center><p>By Ananth Goyal, Dev Gupta, Devesh Panda, and Adil Ahmed</p></center>
+<center><p>By Ananth Goyal, Dev Gupta, and Adil Ahmed</p></center>
 
 
 <form action="Notice.jsp" method="GET">
@@ -48,7 +48,9 @@
     <%--<%=Database.DocsTeach.check()%>--%>
   <div class="SearchBar">
     <form>
+      <center>
       Search Sources: <input type="text" name="fname"></form>
+    </center>
     <br>
     <br>
 
@@ -59,8 +61,8 @@
 
 
 <img src="searchIMG.jpg" alt="searchBar" style="width:250px;height: 160px;px;position:absolute; top: 100px;left: 570px">
-
-  <input type="submit" value="Submit">
+<center>
+  <input type="submit" value="Submit"></center>
 
 <br>
 <br>
